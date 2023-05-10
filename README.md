@@ -1,6 +1,7 @@
 # responsivity_app
 
-A new Flutter project.
+
+Application of responsiveness of a page of courses based on distance learning platforms
 
 ## Getting Started
 
