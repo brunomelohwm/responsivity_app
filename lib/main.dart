@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-        title: 'Flutter',
+        title: 'App Responsivo',
         debugShowCheckedModeBanner: false,
         builder: DevicePreview.appBuilder,
         locale: DevicePreview.locale(context),
