@@ -15,12 +15,19 @@ class CourseItem extends StatelessWidget {
           fit: BoxFit.fitWidth,
         ),
         const SizedBox(height: 4),
-        const AutoSizeText(
-          'Criaçãode Apps Android e IOS com Flutter - Crie 9999 Apps',
-          style: TextStyle(
-            fontWeight: FontWeight.bold,
-            fontSize: 15,
-            color: Colors.white,
+        Flexible(
+          child: LayoutBuilder(
+            builder: (_, constraints) {
+              return const AutoSizeText(
+                'Criaçãode Apps Android e IOS com Flutter - Crie 9999 Apps',
+                minFontSize: 3,
+                style: TextStyle(
+                  fontWeight: FontWeight.bold,
+                  fontSize: 15,
+                  color: Colors.white,
+                ),
+              );
+            },
           ),
         ),
         const Text(
